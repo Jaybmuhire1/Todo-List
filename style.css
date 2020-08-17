@@ -26,6 +26,7 @@ form input,form button{
     font-size: 2rem;
     border: none;
     background: white;
+   
 }
 form button{
     color: #d88771;
@@ -37,6 +38,10 @@ form button:hover{
     background: #d88771;
     color: white;
 
+}
+form input:hover {
+    background:lightgray;
+    color: black;  
 }
 .todo-container {
     display: flex;
@@ -121,4 +126,7 @@ select {
 .select:hover::after {
     background: white;
     color: #ff6f47;
+}
+.fa-plus-square {
+    pointer-events: none;
 }
