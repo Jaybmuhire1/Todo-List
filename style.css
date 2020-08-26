@@ -28,7 +28,7 @@ form input,form button{
     background: white;
    
 }
-form button{
+/* form button{
     color: #d88771;
     background: white;
     cursor: pointer;
@@ -38,11 +38,15 @@ form button:hover{
     background: #d88771;
     color: white;
 
+} */
+
+button :disabled{
+    color: white;
+    background: #d88771;
+    cursor: pointer;
+    transition: all 0.03s ease;
 }
-form input:hover {
-    background:lightgray;
-    color: black;  
-}
+
 .todo-container {
     display: flex;
     justify-content: center;
@@ -128,5 +132,13 @@ select {
     color: #ff6f47;
 }
 .fa-plus-square {
-    pointer-events: none;
+    pointer-events:none;
 }
+/* #dialogbox{
+	display: none;
+	position: fixed;
+	background: #000;
+	border-radius:7px; 
+	width:550px;
+	z-index: 10;
+} */
